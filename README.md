@@ -1,74 +1,64 @@
 ```markdown
-# WexTweaker
+# WexTweaker for Linux
 
-<p align="center">
-<strong>Минималистичный инструмент для настройки Linux</strong>
-</p>
+A lightweight command-line tool for system optimization and configuration on Linux systems.
 
-<p align="center">
-<a href="#установка">Установка</a> • 
-<a href="#использование">Использование</a> • 
-<a href="#структура">Структура</a> • 
-<a href="#лицензия">Лицензия</a>
-</p>
-
----
-
-## 📦 Установка
-
-**Установка одной командой:**
+## Quick Install
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Minish777/WexTweaker-Linux/refs/heads/main/setup.sh | sudo bash
+# Install with one command
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/Minish777/WexTweaker-Linux/refs/heads/main/setup.sh)"
 ```
 
-**Или вручную:**
+## Alternative Installation Methods
 
 ```bash
+# Clone and install
 git clone https://github.com/Minish777/WexTweaker-Linux.git
 cd WexTweaker-Linux
 sudo ./setup.sh
 ```
 
-## 🚀 Использование
+## Usage
 
-После установки запускайте утилиту:
+After installation, run:
 
 ```bash
 sudo wextweaker
 ```
 
-**Доступные команды:**
+### Available Commands
 
 ```bash
-# Основные команды
-sudo wextweaker --help      # Справка
-sudo wextweaker --info      # Информация о системе
-sudo wextweaker --optimize  # Оптимизация
-
-# Управление
-sudo wextweaker --update    # Обновление
-sudo wextweaker --uninstall # Удаление
+sudo wextweaker --help      # Show help
+sudo wextweaker --info      # System information
+sudo wextweaker --optimize  # Optimize system settings
+sudo wextweaker --update    # Update WexTweaker
+sudo wextweaker --uninstall # Remove WexTweaker
 ```
 
-## 📁 Структура проекта
+## Project Structure
 
 ```
 WexTweaker-Linux/
-├── WexTweaker.py     # Основной скрипт
-├── setup.sh          # Установщик
-├── uninstall.sh      # Удаление
-├── README.md         # Документация
-└── LICENSE           # Лицензия MIT
+├── WexTweaker.py     # Main application script
+├── setup.sh          # Installation script
+├── uninstall.sh      # Uninstallation script
+├── README.md         # Documentation
+└── LICENSE           # MIT License
 ```
 
-## 📄 Лицензия
+## Requirements
 
-MIT License. Полный текст в файле [LICENSE](LICENSE).
+- Linux system
+- Python 3.6+
+- Sudo/root access
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-<p align="center">
-<sub>Репозиторий: <a href="https://github.com/Minish777/WexTweaker-Linux">github.com/Minish777/WexTweaker-Linux</a></sub>
-</p>
+**Repository**: [https://github.com/Minish777/WexTweaker-Linux](https://github.com/Minish777/WexTweaker-Linux)
 ```
