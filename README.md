@@ -1,3 +1,6 @@
+## НЕ РАБОТАЕТ / NO WORKING
+
+
 ```markdown
 # WexTweaker for Linux
 
@@ -62,3 +65,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Repository**: [https://github.com/Minish777/WexTweaker-Linux](https://github.com/Minish777/WexTweaker-Linux)
 ```
+
