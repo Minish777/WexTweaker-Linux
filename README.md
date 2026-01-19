@@ -61,14 +61,14 @@
 
 ```bash
 # Просто скопируйте и выполните эту команду:
-curl -sSL https://raw.githubusercontent.com/wextweaks/linux/main/install.sh](https://github.com/Minish777/WexTweaker-Linux.git | bash
+curl -sSL https://github.com/Minish777/WexTweaker-Linux.git/install.sh | bash
 ```
 
 ### 📦 Способ 2: Клонирование репозитория
 **Время: 1 минута**
 
 ```bash
-git clone https://github.com/wextweaks/linux.git](https://github.com/Minish777/WexTweaker-Linux.git
+git clone https://github.com/Minish777/WexTweaker-Linux.git
 cd WexTweaker-linux
 chmod +x install.sh
 ./install.sh
@@ -78,8 +78,8 @@ chmod +x install.sh
 **Время: 15 секунд**
 
 ```bash
-wget https://raw.githubusercontent.com/wextweaks/linux/main/wextweaks_linux.py
-chmod +x wextweaks_linux.py
+wget https://github.com/Minish777/WexTweaker-Linux.git
+chmod +x wextweaker.py
 sudo python3 wextweaker.py
 ```
 
@@ -473,5 +473,6 @@ sudo /opt/wextweaks/uninstall.sh
 
 
 **Наслаждайтесь оптимизированным Linux! 🎮🐧**
+
 
 
