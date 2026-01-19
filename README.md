@@ -1,4 +1,4 @@
-## НЕ РАБОТАЕТ / NO WORKING
+## НЕ РАБОТАЕТ / NO WORK
 
 
 ```markdown
@@ -65,4 +65,5 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Repository**: [https://github.com/Minish777/WexTweaker-Linux](https://github.com/Minish777/WexTweaker-Linux)
 ```
+
 
